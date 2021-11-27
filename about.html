@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip n Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+</section>
+
+<!-------------------------------about us content----------------------------------------------->
+
+<section class="about-us">
+    <div class="row">
+    <div class="about-col">
+        <h1>Trip n Tech</h1>
+        <p>India's No 1 Travel vloger Travel is the movement of people between relatively distant geographical locations, and can involve travel by foot, bicycle, automobile, train, boat, bus, airplane, or other means, with or without luggage, and can be one way or round trip. Travelling can also include relatively short stays between successive movements. The origin of the word “travel” is most likely lost to history. The term “travel” may originate from the Old French word travail, which means ‘work’. According to the Merriam Webster dictionary, the first known use of the word travel was in the 14th century. It also states that the word comes from Middle English travailen, travelen (which means to torment, labor, strive, journey) and earlier from Old French travailler (which means to work strenuously, toil). In English we still occasionally use the words “travail”, which means struggle. -Wikipedia</p>
+        <a href="" class="learn-btn blue-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="img/tourist-from-mountain-top-sun-rays-man-wear-big-backpack-against-sun-light.jpg">
+        
+    </div>
+</div>
+</section>
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Trip n Tech provides latest and interesting videos about Travel, Technology, Automobile and lifestyle</p>
+    <div class="icon">
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p><i class="fa fa-copyright"></i> made by alan sebastian</p>
+</section>
+
+
+
+
+    
+
+ <!-----------------------------------toggle menu-------------------------------------------->
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/cd7c7165a6.js" crossorigin="anonymous"></script>
+</body>
+</html>
